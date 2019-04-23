@@ -1,6 +1,10 @@
 # A basic Anime based discord bot
 A simple Discord Bot running on node.js to work around with APIs
 
+```
+Prefix is : >
+```
+
 ## NPM Dependencies
  - Discord.js
  - Dotenv
