@@ -3,5 +3,6 @@ A simple Discord Bot running on node.js to work around with APIs
 
 ## NPM Dependencies
  - Discord.js
- - dotenv
+ - Dotenv
+ - Request
  - *Coming soon...*
