@@ -11,6 +11,7 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const {prefix, usage} = require("./settings.json");
 const token = process.env.token;
+const request = require('request');
 
 const client = new Discord.Client();
 const cooldowns = new Discord.Collection();
@@ -63,7 +64,7 @@ client.on("message", async (message) => {
     }
 
     try {
-        command.execute(message, args);
+        command.execute(message, args, request);
     }
     catch (e) {
         console.error(e);
