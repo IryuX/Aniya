@@ -1,0 +1,24 @@
+{
+  "name": "animebot",
+  "version": "1.0.0",
+  "description": "Basic anime discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IryuX/animebot.git"
+  },
+  "author": "Iryu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IryuX/animebot/issues"
+  },
+  "homepage": "https://github.com/IryuX/animebot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^7.0.0"
+  }
+}
