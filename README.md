@@ -1,5 +1,5 @@
 # A basic Anime based discord bot
-A simple Discord Bot running on node.js to work around with APIs
+A simple Discord Bot running on node.js to work using Anilist's API
 
 ```
 Prefix is : >
