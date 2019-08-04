@@ -1,10 +1,10 @@
 /**
- * Bot made by : Iryu#9467
+ * Bot made by : Iryu##8521
  * 
  * The core code is from : https://discordjs.guide/
  * Everything else was made by myself :)
  * 
- * v: 0.8
+ *
  */
 require('dotenv').config();
 const Discord = require("discord.js");
